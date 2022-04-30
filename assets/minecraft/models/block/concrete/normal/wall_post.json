@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:template/wall_post_slim",
+  "textures": {
+    "wall": "minecraft:block/concrete/base"
+  }
+}

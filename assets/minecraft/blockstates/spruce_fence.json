@@ -1,0 +1,49 @@
+{
+    "multipart": [
+        {   "when": { "north": true,"south": true },
+            "apply": { "model": "block/guard_rail/line", "y": 90 }
+        },
+        {   "when": { "east": true,"west": true },
+            "apply": { "model": "block/guard_rail/line" }
+        },
+        {   "when": { "north": true,"south": false,"east": true,"west": true  },
+            "apply": { "model": "block/guard_rail/pole"}
+        },
+        {   "when": { "north": true,"south": true,"east": true,"west": false  },
+            "apply": { "model": "block/guard_rail/pole", "y": 90 }
+        },
+        {   "when": { "north": false,"south": true,"east": true,"west": true  },
+            "apply": { "model": "block/guard_rail/pole", "y": 180 }
+        },
+        {   "when": { "north": true,"south": true,"east": false,"west": true  },
+            "apply": { "model": "block/guard_rail/pole", "y": 270 }
+        },
+        {   "when": { "north": true,"south": false,"east": false,"west": false  },
+            "apply": { "model": "block/guard_rail/end", "y": 270 }
+        },
+        {   "when": { "north": false,"south": false,"east": true,"west": false  },
+            "apply": { "model": "block/guard_rail/end" }
+        },
+        {   "when": { "north": false,"south": true,"east": false,"west": false  },
+            "apply": { "model": "block/guard_rail/end", "y": 90 }
+        },
+        {   "when": { "north": false,"south": false,"east": false,"west": true  },
+            "apply": { "model": "block/guard_rail/end", "y": 180 }
+        },
+        {   "when": { "north": false,"south": true,"east": false,"west": true  },
+            "apply": { "model": "block/guard_rail/dia", "y": 180 }
+        },
+        {   "when": { "north": false,"south": true,"east": true,"west": false  },
+            "apply": { "model": "block/guard_rail/dia", "y": 90 }
+        },
+        {   "when": { "north": true,"south": false,"east": true,"west": false  },
+            "apply": { "model": "block/guard_rail/dia_alt" }
+        },
+        {   "when": { "north": true,"south": false,"east": false,"west": true  },
+            "apply": { "model": "block/guard_rail/dia_alt", "y": 270 }
+        },
+        {   "when": { "north": false,"south": false,"east": false,"west": false  },
+            "apply": { "model": "block/guard_rail/single"}
+        }
+    ]
+}

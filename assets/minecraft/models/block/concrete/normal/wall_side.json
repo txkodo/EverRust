@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:template/wall_side_tall_show",
+  "textures": {
+    "wall": "minecraft:block/concrete/base"
+  }
+}

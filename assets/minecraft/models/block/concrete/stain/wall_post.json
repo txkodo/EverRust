@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:template/wall_post_slim_column",
+  "textures": {
+    "end": "minecraft:block/concrete/base",
+    "side": "minecraft:block/concrete/stain"
+  }
+}

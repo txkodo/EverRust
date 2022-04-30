@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/iron_panel/all",
+		"particle": "block/iron_frame/slate",
+		"all": "block/iron_frame/slate"
+	},
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#all", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#all", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#all", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#all", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

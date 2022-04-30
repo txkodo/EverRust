@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:template/wall_side_tall_column",
+  "textures": {
+    "end": "minecraft:block/concrete/base",
+    "side": "minecraft:block/concrete/stain"
+  }
+}
