@@ -141,4 +141,20 @@ def ctm_compact(path:str|Path,*matchtiles:str):
   
   saveProperty(path.with_suffix('.properties'),'ctm_compact',matchtiles,tiles)
 
-ctm_compact(r'\assets\minecraft\optifine\ctm\iron_panel\plane.png','textures/block/iron_panel/plane.png')
+def ctm_random(path:str|Path,*matchtiles:str):
+  path = Path(path)
+  name = path.stem
+  image = Image.open(path)
+  unit = image.height
+  assert image.width % unit == 0
+  tiles:list[str] = []
+
+  for i in range(image.width // unit):
+    new_name = f'{name}{i}'
+    image.crop((unit*i,0,unit*(i+1),unit)).save(path.with_stem(new_name))
+    tiles.append(new_name)
+  
+  saveProperty(path.with_suffix('.properties'),'random',matchtiles,tiles)
+
+ctm_compact(r'assets\minecraft\optifine\ctm\asphalt\line.png','textures/block/asphalt/line.png')
+# ctm_random(r'assets\minecraft\optifine\ctm\asphalt\base.png','textures/block/asphalt/base.png')

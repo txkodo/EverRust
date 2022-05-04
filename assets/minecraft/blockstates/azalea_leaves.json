@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/iron_frame/main"
+      "model": "minecraft:block/vine/block"
     }
   }
 }

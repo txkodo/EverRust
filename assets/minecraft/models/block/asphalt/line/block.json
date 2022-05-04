@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/asphalt/line",
+    "side": "minecraft:block/asphalt/base"
+  }
+}
