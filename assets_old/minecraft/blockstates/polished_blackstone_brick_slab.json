@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/asphalt/line/slab"
+    },
+    "type=double": {
+      "model": "null"
+    },
+    "type=top": {
+      "model": "minecraft:block/asphalt/line/slab_top"
+    }
+  }
+}

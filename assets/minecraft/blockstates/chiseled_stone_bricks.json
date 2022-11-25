@@ -1,5 +1,1 @@
-{
-  "variants": {
-      "": { "model": "block/concrete/normal/block"}
-  }
-}
+{"variants": {"": {"model": "minecraft:block/concrete/dotted"}}}

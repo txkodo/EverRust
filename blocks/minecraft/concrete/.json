@@ -1,0 +1,30 @@
+{
+    "$schema": "",
+    "textures": [{ "texture": "base" }, { "texture": "dotted" }, { "texture": "stain", "ctm": "ctm_compact" }],
+    "values": [
+        {
+            "type": "cube",
+            "model": "dotted",
+            "block": "chiseled_stone_bricks",
+            "textures": { "all": "dotted" }
+        },
+        {
+            "type": "generic",
+            "model": "base",
+            "block": "stone_bricks",
+            "slab": "stone_brick_slab",
+            "stairs": "stone_brick_stairs",
+            "textures": { "all": "base" },
+            "double": ""
+        },
+        {
+            "type": "generic",
+            "model": "stain",
+            "block": "mossy_stone_bricks",
+            "slab": "mossy_stone_brick_slab",
+            "stairs": "mossy_stone_brick_stairs",
+            "textures": { "side": "stain", "end": "base" },
+            "double": ""
+        }
+    ]
+}

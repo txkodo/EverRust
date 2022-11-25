@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/cube_bottom_top", "textures": {"top": "minecraft:block/asphalt/line", "bottom": "minecraft:block/asphalt/line", "side": "minecraft:block/asphalt/base"}}

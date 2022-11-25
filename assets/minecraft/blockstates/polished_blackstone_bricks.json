@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/asphalt/line/block"
-    }
-  }
-}
+{"variants": {"": {"model": "minecraft:block/asphalt/line_block"}}}

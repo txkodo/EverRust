@@ -1,5 +1,1 @@
-{
-  "variants": {
-      "": { "model": "block/concrete/stain/block"}
-  }
-}
+{"variants": {"": {"model": "minecraft:block/concrete/stain_block"}}}

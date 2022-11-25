@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "minecraft:block/asphalt/normal/block"
-    }
-  }
-}
+{"variants": {"": {"model": "minecraft:block/asphalt/base_block"}}}

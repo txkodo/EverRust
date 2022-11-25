@@ -1,0 +1,25 @@
+{
+    "$schema": "",
+    "textures": [
+        { "texture": "base", "ctm": "random" },
+        { "texture": "line", "ctm": "ctm_compact" }
+    ],
+    "values": [
+        {
+            "type": "generic",
+            "model": "line",
+            "block": "polished_blackstone_bricks",
+            "slab": "polished_blackstone_brick_slab",
+            "stairs": "polished_blackstone_brick_stairs",
+            "textures": { "top": "line", "bottom": "line", "side": "base" }
+        },
+        {
+            "type": "generic",
+            "model": "base",
+            "block": "blackstone",
+            "slab": "blackstone_slab",
+            "stairs": "blackstone_stairs",
+            "textures": { "all": "base" }
+        }
+    ]
+}
